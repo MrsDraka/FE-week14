@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Madimi+One&display=swap');
+
 .App {
   text-align: center;
 }
@@ -14,14 +16,24 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #212529;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #212529;
+}
+
+.App-title {
+  font-family: "Madimi One", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: antiquewhite;
 }
 
 .App-link {
